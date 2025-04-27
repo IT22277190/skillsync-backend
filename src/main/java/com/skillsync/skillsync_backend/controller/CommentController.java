@@ -1,4 +1,4 @@
-package com.linhtch90.psnbackend.controller;
+package com.skillsync.skillsync_backend.controller;
 
 import com.linhtch90.psnbackend.entity.CommentEntity;
 import com.linhtch90.psnbackend.entity.CommentPostRequestEntity;

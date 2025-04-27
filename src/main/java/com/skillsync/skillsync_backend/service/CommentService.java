@@ -1,4 +1,4 @@
-package com.linhtch90.psnbackend.service;
+package com.skillsync.skillsync_backend.service;
 
 import java.time.Instant;
 import java.util.ArrayList;
@@ -6,11 +6,11 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import com.linhtch90.psnbackend.entity.CommentEntity;
-import com.linhtch90.psnbackend.entity.IdObjectEntity;
-import com.linhtch90.psnbackend.entity.PostEntity;
-import com.linhtch90.psnbackend.repository.CommentRepository;
-import com.linhtch90.psnbackend.repository.PostRepository;
+import com.skillsync.skillsync_backend.entity.CommentEntity;
+import com.skillsync.skillsync_backend.entity.IdObjectEntity;
+import com.skillsync.skillsync_backend.entity.PostEntity;
+import com.skillsync.skillsync_backend.repository.CommentRepository;
+import com.skillsync.skillsync_backend.repository.PostRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
