@@ -1,4 +1,4 @@
-package com.linhtch90.psnbackend.filter;
+package com.skillsync.skillsync_backend.filter;
 
 import java.io.IOException;
 
@@ -7,7 +7,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.linhtch90.psnbackend.service.JWTUtil;
+import com.skillsync.skillsync_backend.service.JWTUtil;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
