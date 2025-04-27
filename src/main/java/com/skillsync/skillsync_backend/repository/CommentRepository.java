@@ -1,6 +1,6 @@
-package com.linhtch90.psnbackend.repository;
+package com.skillsync.skillsync_backend.repository;
 
-import com.linhtch90.psnbackend.entity.CommentEntity;
+import com.skillsync.skillsync_backend.entity.CommentEntity;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;

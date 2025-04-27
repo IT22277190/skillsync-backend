@@ -1,10 +1,10 @@
-package com.linhtch90.psnbackend.controller;
+package com.skillsync.skillsync_backend.controller;
 
-import com.linhtch90.psnbackend.entity.DoubleIdObjectEntity;
-import com.linhtch90.psnbackend.entity.IdObjectEntity;
-import com.linhtch90.psnbackend.entity.PostEntity;
-import com.linhtch90.psnbackend.service.PostService;
-import com.linhtch90.psnbackend.service.ResponseObjectService;
+import com.skillsync.skillsync_backend.entity.DoubleIdObjectEntity;
+import com.skillsync.skillsync_backend.entity.IdObjectEntity;
+import com.skillsync.skillsync_backend.entity.PostEntity;
+import com.skillsync.skillsync_backend.service.PostService;
+import com.skillsync.skillsync_backend.service.ResponseObjectService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

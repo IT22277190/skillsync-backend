@@ -1,10 +1,10 @@
 package com.skillsync.skillsync_backend.controller;
 
-import com.linhtch90.psnbackend.entity.CommentEntity;
-import com.linhtch90.psnbackend.entity.CommentPostRequestEntity;
-import com.linhtch90.psnbackend.entity.IdObjectEntity;
-import com.linhtch90.psnbackend.service.CommentService;
-import com.linhtch90.psnbackend.service.ResponseObjectService;
+import com.skillsync.skillsync_backend.entity.CommentEntity;
+import com.skillsync.skillsync_backend.entity.CommentPostRequestEntity;
+import com.skillsync.skillsync_backend.entity.IdObjectEntity;
+import com.skillsync.skillsync_backend.service.CommentService;
+import com.skillsync.skillsync_backend.service.ResponseObjectService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
