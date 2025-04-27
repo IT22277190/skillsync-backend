@@ -1,4 +1,4 @@
-package com.linhtch90.psnbackend.config;
+package com.skillsync.skillsync_backend.config;
 
 import java.io.IOException;
 

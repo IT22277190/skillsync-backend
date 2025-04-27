@@ -1,4 +1,4 @@
-package com.linhtch90.psnbackend.entity;
+package com.skillsync.skillsync_backend.entity;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserSignInEntity {
-    private String email;
-    private String password;
+public class PostByFollowing {
+    private UserEntity user;
+    private PostEntity post;
 }
