@@ -27,6 +27,8 @@ public class PostEntity {
 
     private String image;
 
+    private String video; // New field for video URL or path
+
     private Instant createdAt;
 
     List<String> love = new ArrayList<>();
