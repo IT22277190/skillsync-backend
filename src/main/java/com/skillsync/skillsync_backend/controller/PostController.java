@@ -25,9 +25,11 @@ public class PostController {
     private PostService postService;
 
     @PostMapping("/insertpost")
-    public ResponseEntity<ResponseObjectService> insertPost(@RequestBody PostEntity inputPost) {
-        return new ResponseEntity<ResponseObjectService>(postService.insertPost(inputPost), HttpStatus.OK);
-    }
+public ResponseEntity<ResponseObjectService> insertPost(@RequestBody PostEntity inputPost) {
+    System.out.println("Received post: " + inputPost);
+    return new ResponseEntity<ResponseObjectService>(postService.insertPost(inputPost), HttpStatus.OK);
+}
+
 
     @DeleteMapping("/deletepost/{postId}")
     public ResponseEntity<ResponseObjectService> deletePost(@PathVariable String postId) {
