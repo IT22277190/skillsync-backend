@@ -25,7 +25,7 @@ public class PostEntity {
 
     private String content;
 
-    private String image;
+    private String image; // New field for image URL or path
 
     private String video; // New field for video URL or path
 
