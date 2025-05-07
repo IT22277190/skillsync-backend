@@ -69,7 +69,7 @@ public ResponseEntity<ResponseObjectService> insertPost(@RequestBody PostEntity 
     @PostMapping("/myposts")
     public ResponseEntity<ResponseObjectService> findPostByUserId(@RequestBody IdObjectEntity inputUserId) {
         return new ResponseEntity<ResponseObjectService>(postService.findPostByUserId(inputUserId), HttpStatus.OK);
-    }
+    } // Get all posts by user ID
 
     @PostMapping("/followingposts")
     public ResponseEntity<ResponseObjectService> findPostByFollowing(@RequestBody IdObjectEntity inputUserId) {
