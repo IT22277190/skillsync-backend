@@ -40,7 +40,7 @@ public ResponseEntity<ResponseObjectService> insertPost(@RequestBody PostEntity 
         } else {
             return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
         }
-    }
+    } // Delete a post by ID
 
     @PutMapping("/editpost")
     public ResponseEntity<ResponseObjectService> editPost(@RequestBody PostEntity inputPost) {
