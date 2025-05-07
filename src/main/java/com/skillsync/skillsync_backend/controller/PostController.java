@@ -63,7 +63,7 @@ public ResponseEntity<ResponseObjectService> insertPost(@RequestBody PostEntity 
         } else {
             return new ResponseEntity<>(response, HttpStatus.NOT_FOUND); // Return 404 if not found
         }
-    }
+    } // Get a post by ID
 
     
     @PostMapping("/myposts")
