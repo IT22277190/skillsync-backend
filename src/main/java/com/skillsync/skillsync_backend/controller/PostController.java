@@ -90,7 +90,7 @@ public ResponseEntity<ResponseObjectService> insertPost(@RequestBody PostEntity 
     @PostMapping("/sharepost")
     public ResponseEntity<ResponseObjectService> sharePost(@RequestBody DoubleIdObjectEntity doubleId) {
         return new ResponseEntity<ResponseObjectService>(postService.updatePostByShare(doubleId), HttpStatus.OK);
-    }
+    } // Share a post by ID
 
 
 }
