@@ -85,7 +85,7 @@ public ResponseEntity<ResponseObjectService> insertPost(@RequestBody PostEntity 
     @PostMapping("/lovepost")
     public ResponseEntity<ResponseObjectService> lovePost(@RequestBody DoubleIdObjectEntity doubleId) {
         return new ResponseEntity<ResponseObjectService>(postService.updatePostByLove(doubleId), HttpStatus.OK);
-    }
+    } // Love a post by ID
 
     @PostMapping("/sharepost")
     public ResponseEntity<ResponseObjectService> sharePost(@RequestBody DoubleIdObjectEntity doubleId) {
