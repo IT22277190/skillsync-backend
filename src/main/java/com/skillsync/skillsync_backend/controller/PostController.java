@@ -52,6 +52,7 @@ public ResponseEntity<ResponseObjectService> insertPost(@RequestBody PostEntity 
             return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
         }
     } // Edit a post by ID
+    // Get all posts by user ID
 
     @GetMapping("/getpost/{postId}")
     public ResponseEntity<ResponseObjectService> getPostById(@PathVariable String postId) {
