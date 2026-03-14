@@ -1,4 +1,4 @@
-package com.linhtch90.psnbackend.service;
+package com.skillsync.skillsync_backend.service;
 
 import java.util.Base64;
 import java.util.Date;

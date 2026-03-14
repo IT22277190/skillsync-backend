@@ -1,4 +1,4 @@
-package com.linhtch90.psnbackend.service;
+package com.skillsync.skillsync_backend.service;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -6,10 +6,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
-import com.linhtch90.psnbackend.entity.DoubleIdObjectEntity;
-import com.linhtch90.psnbackend.entity.IdObjectEntity;
-import com.linhtch90.psnbackend.entity.UserEntity;
-import com.linhtch90.psnbackend.repository.UserRepository;
+import com.skillsync.skillsync_backend.entity.DoubleIdObjectEntity;
+import com.skillsync.skillsync_backend.entity.IdObjectEntity;
+import com.skillsync.skillsync_backend.entity.UserEntity;
+import com.skillsync.skillsync_backend.repository.UserRepository;
 
 import org.apache.catalina.connector.Response;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
-package com.linhtch90.psnbackend.config;
+package com.skillsync.skillsync_backend.config;
 
-import com.linhtch90.psnbackend.filter.SecurityFilter;
+import com.skillsync.skillsync_backend.filter.SecurityFilter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
